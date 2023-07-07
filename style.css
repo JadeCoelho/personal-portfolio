@@ -52,6 +52,7 @@
 body {
   background-color: var(--bg);
   color: var(--font);
+  top: 0px !important;
 }
 
 header {
@@ -97,6 +98,23 @@ header {
   font-weight: 500;
   font-size: 1.1rem;
   color: var(--main-second);
+}
+
+#google_translate_element {
+  width: fit-content;
+}
+
+select {
+  background-color: transparent;
+  color: var(--font);
+}
+
+option {
+  background-color: var(--bg);
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+  display: none;
 }
 
 .toggle {
@@ -218,7 +236,8 @@ ul {
 
 .project-card {
   width: 260px;
-  height: 290px;
+  height: fit-content;
+  min-height: 290px;
   border-radius: 6px;
   padding: 8px;
   margin-top: 2rem;

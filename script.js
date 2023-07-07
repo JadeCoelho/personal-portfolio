@@ -133,3 +133,10 @@ for (let i = 0; i < technologies.length; i++) {
   li.innerHTML = `<abbr title='${technologies[i]}'><i class="bx bxl-${technologies[i]}"></i></abbr>`;
   ul.appendChild(li);
 }
+
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement(
+    { pageLanguage: "pt-br" },
+    "google_translate_element"
+  );
+}
